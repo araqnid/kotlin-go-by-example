@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "2.1.20"
+    kotlin("jvm") version "2.2.0"
     id("org.jetbrains.dokka") version "2.0.0"
 }
 
@@ -8,7 +8,7 @@ repositories {
 }
 
 dependencies {
-    implementation(platform("org.jetbrains.kotlinx:kotlinx-coroutines-bom:1.10.1"))
+    implementation(platform("org.jetbrains.kotlinx:kotlinx-coroutines-bom:1.10.2"))
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-debug")
     runtimeOnly("org.slf4j:slf4j-api:2.0.17")
